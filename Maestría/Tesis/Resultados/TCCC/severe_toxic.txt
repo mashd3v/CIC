@@ -1,0 +1,66 @@
+Subset 1: severe_toxic
+Modelo 0: Logistic Regression
+Predicción de validación
+              precision    recall  f1-score   support
+
+           0       0.95      0.94      0.94       153
+           1       0.93      0.94      0.94       137
+
+    accuracy                           0.94       290
+   macro avg       0.94      0.94      0.94       290
+weighted avg       0.94      0.94      0.94       290
+
+Modelo 1: KNN
+Predicción de validación
+              precision    recall  f1-score   support
+
+           0       0.97      0.76      0.85       153
+           1       0.78      0.98      0.87       137
+
+    accuracy                           0.86       290
+   macro avg       0.88      0.87      0.86       290
+weighted avg       0.88      0.86      0.86       290
+
+Modelo 2: BernoulliNB
+Predicción de validación
+              precision    recall  f1-score   support
+
+           0       0.95      0.45      0.61       153
+           1       0.61      0.97      0.75       137
+
+    accuracy                           0.70       290
+   macro avg       0.78      0.71      0.68       290
+weighted avg       0.79      0.70      0.68       290
+
+Modelo 3: MultinomialNB
+Predicción de validación
+              precision    recall  f1-score   support
+
+           0       0.95      0.96      0.95       153
+           1       0.96      0.94      0.95       137
+
+    accuracy                           0.95       290
+   macro avg       0.95      0.95      0.95       290
+weighted avg       0.95      0.95      0.95       290
+
+Modelo 4: SVM
+Predicción de validación
+              precision    recall  f1-score   support
+
+           0       0.97      0.94      0.95       153
+           1       0.94      0.96      0.95       137
+
+    accuracy                           0.95       290
+   macro avg       0.95      0.95      0.95       290
+weighted avg       0.95      0.95      0.95       290
+
+Modelo 5: Random Forest
+Predicción de validación
+              precision    recall  f1-score   support
+
+           0       0.91      0.88      0.89       153
+           1       0.87      0.91      0.89       137
+
+    accuracy                           0.89       290
+   macro avg       0.89      0.89      0.89       290
+weighted avg       0.89      0.89      0.89       290

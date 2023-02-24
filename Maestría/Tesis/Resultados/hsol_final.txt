@@ -1,0 +1,32 @@
+Conjunto de prueba para la etiqueta hate_speech
+Predicción del modelo sobre el conjunto de prueba
+              precision    recall  f1-score   support
+
+           0       0.97      0.82      0.89      2315
+           1       0.21      0.70      0.33       164
+
+    accuracy                           0.81      2479
+   macro avg       0.59      0.76      0.61      2479
+weighted avg       0.92      0.81      0.85      2479
+
+Conjunto de prueba para la etiqueta offensive_language
+Predicción del modelo sobre el conjunto de prueba
+              precision    recall  f1-score   support
+
+           0       0.72      0.86      0.78       574
+           1       0.96      0.90      0.93      1905
+
+    accuracy                           0.89      2479
+   macro avg       0.84      0.88      0.85      2479
+weighted avg       0.90      0.89      0.89      2479
+
+Conjunto de prueba para la etiqueta neither
+Predicción del modelo sobre el conjunto de prueba
+              precision    recall  f1-score   support
+
+           0       0.99      0.93      0.96      2069
+           1       0.74      0.95      0.83       410
+
+    accuracy                           0.94      2479
+   macro avg       0.86      0.94      0.89      2479
+weighted avg       0.95      0.94      0.94      2479

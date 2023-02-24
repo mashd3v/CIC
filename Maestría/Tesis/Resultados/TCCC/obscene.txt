@@ -1,0 +1,66 @@
+Subset 2: obscene
+Modelo 0: Logistic Regression
+Predicción de validación
+              precision    recall  f1-score   support
+
+           0       0.89      0.93      0.91       749
+           1       0.93      0.89      0.91       774
+
+    accuracy                           0.91      1523
+   macro avg       0.91      0.91      0.91      1523
+weighted avg       0.91      0.91      0.91      1523
+
+Modelo 1: KNN
+Predicción de validación
+              precision    recall  f1-score   support
+
+           0       0.96      0.04      0.07       749
+           1       0.52      1.00      0.68       774
+
+    accuracy                           0.53      1523
+   macro avg       0.74      0.52      0.38      1523
+weighted avg       0.74      0.53      0.38      1523
+
+Modelo 2: BernoulliNB
+Predicción de validación
+              precision    recall  f1-score   support
+
+           0       0.92      0.40      0.56       749
+           1       0.63      0.97      0.76       774
+
+    accuracy                           0.69      1523
+   macro avg       0.77      0.68      0.66      1523
+weighted avg       0.77      0.69      0.66      1523
+
+Modelo 3: MultinomialNB
+Predicción de validación
+              precision    recall  f1-score   support
+
+           0       0.84      0.93      0.88       749
+           1       0.93      0.83      0.88       774
+
+    accuracy                           0.88      1523
+   macro avg       0.88      0.88      0.88      1523
+weighted avg       0.89      0.88      0.88      1523
+
+Modelo 4: SVM
+Predicción de validación
+              precision    recall  f1-score   support
+
+           0       0.92      0.95      0.94       749
+           1       0.95      0.92      0.94       774
+
+    accuracy                           0.94      1523
+   macro avg       0.94      0.94      0.94      1523
+weighted avg       0.94      0.94      0.94      1523
+
+Modelo 5: Random Forest
+Predicción de validación
+              precision    recall  f1-score   support
+
+           0       0.84      0.90      0.87       749
+           1       0.90      0.84      0.87       774
+
+    accuracy                           0.87      1523
+   macro avg       0.87      0.87      0.87      1523
+weighted avg       0.87      0.87      0.87      1523
