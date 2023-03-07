@@ -7,10 +7,10 @@ import text_preprocessing_v2 as tp2
 import pandas as pd, numpy as np
 
 class CleaningTwitterData:
-    def __init__(self, csv_path, sv_path, text_column, language, remove_stopwords, 
-                 is_dataframe, emoji_path, dataframes, columns, dictionary_list):
+    def __init__(self, csv_path, text_column, language, remove_stopwords, 
+                 is_dataframe, emoji_path, dataframes, columns, 
+                 dictionary_list):
         self.csv_path = csv_path
-        self.sv_path = sv_path
         self.text_column = text_column
         self.language = language
         self.remove_stopwords = remove_stopwords
@@ -45,6 +45,7 @@ class CleaningTwitterData:
     def change_to_numeric_labels(self, dataframes, columns, dictionary_list):
         for df in dataframes:
             for i, column in enumerate(columns):
-                df[column].replace(list(dictionary_list[i].keys()), 
-                                            list(dictionary_list[i].values()), 
-                                            inplace=True)
+                df = df[column].replace(list(dictionary_list[i].keys()), 
+                                    list(dictionary_list[i].values()), 
+                                    inplace=True)
+        return dataframes
