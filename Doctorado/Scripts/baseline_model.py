@@ -1,4 +1,6 @@
 # Imports
+import seaborn as sns
+import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn import metrics
@@ -35,9 +37,11 @@ class Baseline:
         y_pred = final_model.predict(x_test)
 
         # Results
-        print(metrics.classification_report(y_test, 
+        clf_report = metrics.classification_report(y_test, 
                                             y_pred, 
-                                            target_names=self.target_names))
-
-
-        return final_model, vectorizer
+                                            target_names=self.target_names)
+        confusion_matrix = metrics.confusion_matrix(y_test, y_pred)
+        
+        print(clf_report)
+        
+        return final_model, vectorizer, [clf_report, confusion_matrix]
