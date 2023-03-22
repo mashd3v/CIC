@@ -41,7 +41,9 @@ class Baseline:
                                             y_pred, 
                                             target_names=self.target_names)
         confusion_matrix = metrics.confusion_matrix(y_test, y_pred)
+        accuracy = metrics.accuracy_score(y_test, y_pred)
         
         print(clf_report)
         
-        return final_model, vectorizer, [clf_report, confusion_matrix]
+        return final_model, vectorizer, [clf_report, confusion_matrix, accuracy]
+
