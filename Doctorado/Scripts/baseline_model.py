@@ -50,4 +50,4 @@ class Baseline:
         print(f'Model {self.model_name} ({self.y_label_column}-{self.ngram_range}-{self.min_df}) --> Accuracy: {round(accuracy, 2)}')
         
         return final_model, vectorizer, [clf_report, confusion_matrix, accuracy]
-
+    
