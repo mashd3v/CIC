@@ -210,11 +210,32 @@ class FeatureExtraction:
             pd.Series(feats_list),
         ]
 
+        # Correcting the duplicated vocabulary
+        seen = set()
+        unique, index = [], []
+        for i, x in enumerate(final_volcabulary):
+            if x not in seen:
+                unique.append(x)
+                seen.add(x)
+            else:
+                index.append(i)
+
         # Join the text, pos and tag matrices into a single one
         final_vector = np.concatenate(
             [lemma_vectorizer, pos_vectorizer, tag_vectorizer, oth_feats_vectorizer],
             axis=1,
         )
+
+        flag = 0
+        for i, x in enumerate(index):
+            if i == 0:
+                a.pop(x)
+            else:
+                flag -= 1
+                print(flag)
+                a.pop(x + flag)
+
+        print(a)
 
         print(f"Lemma: {lemma_vectorizer.shape}")
         print(f"POS: {pos_vectorizer.shape}")
