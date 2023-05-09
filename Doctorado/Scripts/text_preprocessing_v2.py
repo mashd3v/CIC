@@ -2,6 +2,8 @@ import nltk
 import pickle
 import re
 import string
+import spacy
+import subprocess
 
 import pandas as pd
 
@@ -13,268 +15,318 @@ from bs4 import BeautifulSoup
 
 import textblob.exceptions
 
-nltk.download('stopwords')
+subprocess.run(["python3", "-m", "spacy", "download", "es_core_news_sm"])
+
+nltk.download("stopwords")
+
 
 class Preprocessing:
-  def __init__(self, language):
-    self.language = language
+    def __init__(self, language):
+        self.language = language
+        if self.language == "english":
+            self.lang = "en"
+            self.nlp = spacy.load("en_core_web_sm")
+        elif self.language == "spanish":
+            self.lang = "es"
+            self.nlp = spacy.load("es_core_news_sm")
 
-  def stopwords_languaje(self):
-    return stopwords.words(self.language)
+    def stopwords_languaje(self):
+        return stopwords.words(self.language)
 
-  def load_emoji_dict(self, path):
-    with open(path, 'rb') as fp:
-      emojis = pickle.load(fp)
-    emojis = {v: k for k, v in emojis.items()}
+    def lemmatizer(self, text):
+        lemmas = []
 
-    return emojis
+        doc = self.nlp(text)
 
-  def remove_stopwords(self, text):
-    stop_words = self.stopwords_languaje()
-    clean_text = []
- 
-    for word in text.split():
-      if word not in stop_words:
-        clean_text.append(word)
+        for token in doc:
+            lemmas.append(token.lemma_)
 
-    return ' '.join(clean_text)
-  
-  def tweet_preprocessing(self, text):
-    clean_text = []
-    for word in text.split(' '):
-      word = '' if word.startswith('@') and len(word) > 1 else word
-      word = '' if '@' in word else word
-      word = '' if word.startswith('RT') and len(word) > 1  else word
-      word = '' if word.startswith('http') else word
-      word = '' if word.startswith('_USER_') and len(word) > 1 else word
-      word = '' if word.startswith('_URL_') else word
-      word = '' if word.startswith('_HASHTAG_') else word
-      word = '' if word.startswith('rt') else word
+        return " ".join(lemmas)
 
-      clean_text.append(word)
+    def load_emoji_dict(self, path):
+        with open(path, "rb") as fp:
+            emojis = pickle.load(fp)
+        emojis = {v: k for k, v in emojis.items()}
 
-    return ' '.join(clean_text)
+        return emojis
 
-  def emoji_to_text(self, text, emoji_path):
-    emojis = self.load_emoji_dict(emoji_path)
-    clean_text = []
+    def remove_stopwords(self, text):
+        stop_words = self.stopwords_languaje()
+        clean_text = []
 
-    for emot in emojis:
-      text = re.sub(r'('+emot+')', 
-            ' '.join(emojis[emot].replace(',', '').replace(':', '').split()), 
-            text)
-    
-    tokens = text.split()
+        for word in text.split():
+            if word not in stop_words:
+                clean_text.append(word)
 
-    for token in tokens:
-      if token.count('_') > 0:
-        token = token.split('_')
-        token = ' '.join(token)
-        token = self.translate(token)
-      
-      clean_text.append(token)
+        return " ".join(clean_text)
 
-    final_text = ' '.join(clean_text)
+    def tweet_preprocessing(self, text):
+        clean_text = []
+        for word in text.split(" "):
+            word = "" if word.startswith("@") and len(word) > 1 else word
+            word = "" if "@" in word else word
+            word = "" if word.startswith("RT") and len(word) > 1 else word
+            word = "" if word.startswith("http") else word
+            word = "" if word.startswith("_USER_") and len(word) > 1 else word
+            word = "" if word.startswith("_URL_") else word
+            word = "" if word.startswith("_HASHTAG_") else word
+            word = "" if word.startswith("rt") else word
 
-    return final_text
-  
-  def normalize(slef, text):
-    replacements = [
-        ("á", "a"),
-        ("é", "e"),
-        ("í", "i"),
-        ("ó", "o"),
-        ("ú", "u"),
-        ("ñ", "n")
-    ]
-  
-    for original, replacement in replacements:
-      text = text.replace(original, replacement)
-    
-    return text
+            clean_text.append(word)
 
-  def split_hashtags(self, text):
-    text = re.sub('#', '', text)
-    return re.sub(r'(?<![A-Z\W])(?=[A-Z])', ' ', text)
+        return " ".join(clean_text)
 
-  def detect_http(self, text):
-    return re.sub(r'(?<!http)(?=http)', ' ', text)
+    def emoji_to_text(self, text, emoji_path):
+        emojis = self.load_emoji_dict(emoji_path)
+        clean_text = []
 
-  def change_html_entities(self, text):
-    return re.sub(r'<.*?>', '', text)
+        for emot in emojis:
+            text = re.sub(
+                r"(" + emot + ")",
+                " ".join(emojis[emot].replace(",", "").replace(":", "").split()),
+                text,
+            )
 
-  def turn_lowercase(self, text):
-    return text.lower()
+        tokens = text.split()
 
-  def remove_apostrophes(self, text):
-    return re.sub("'", "", text)
+        for token in tokens:
+            if token.count("_") > 0:
+                token = token.split("_")
+                token = " ".join(token)
+                token = self.translate(token)
 
-  def remove_slaches(self, text):
-    return re.sub("'\'", "", text)
+            clean_text.append(token)
 
-  def remove_alphanumceric_words(self, text):
-    return re.sub('\w*\d\w*', ' ', text)
+        final_text = " ".join(clean_text)
 
-  def remove_line_breaks(self, text):
-    return ' '.join(text.splitlines())
+        return final_text
 
-  def remove_non_ascii(self, text):
-    return re.sub(r'[^\x00-\x7fre]',r' ', text)
-  
-  def remove_blank_spaces(self, text):
-    return ' '.join(text.split())
+    def normalize(slef, text):
+        replacements = [
+            ("á", "a"),
+            ("é", "e"),
+            ("í", "i"),
+            ("ó", "o"),
+            ("ú", "u"),
+            ("ñ", "n"),
+        ]
 
-  def crop_repeated_characters(self, text):
-    return re.sub(r'(.)\1+', r'\1\1', text)
+        for original, replacement in replacements:
+            text = text.replace(original, replacement)
 
-  def remove_punctuation(self, text):
-    return re.sub('[%s]' % re.escape(string.punctuation), ' ', text)
+        return text
 
-  def translate(self, text):
-    try:
-      w = TextBlob(text)
-      w = w.translate(from_lang= 'en', to= 'es').raw
-    except textblob.exceptions.TranslatorError:
-      text = text
-    except textblob.exceptions.NotTranslated:
-      text = text
-    else:
-      text = w
+    def split_hashtags(self, text):
+        text = re.sub("#", "", text)
+        return re.sub(r"(?<![A-Z\W])(?=[A-Z])", " ", text)
 
-    return text
-  
-  def preprocess_dataframe(self, data, column, tweet, remove_stop_words, emoji_path):
-    # Emoji to text
-    text_emoji = lambda x: self.emoji_to_text(x, emoji_path)
+    def detect_http(self, text):
+        return re.sub(r"(?<!http)(?=http)", " ", text)
 
-    # Detect links
-    detect_link = lambda x: self.detect_http(x)
+    def change_html_entities(self, text):
+        return re.sub(r"<.*?>", "", text)
 
-    # Split hashtags
-    split_hashtag = lambda x: self.split_hashtags(x)
+    def turn_lowercase(self, text):
+        return text.lower()
 
-    # Remove Tweeter entities
-    remove_tweeter_entities = lambda x: self.tweet_preprocessing(x)
+    def remove_apostrophes(self, text):
+        return re.sub("'", "", text)
 
-    # Change html entities
-    html_entities = lambda x: self.change_html_entities(x)
+    def remove_slaches(self, text):
+        return re.sub("''", "", text)
 
-    # Lower text
-    lower_text = lambda x: self.turn_lowercase(x)
+    def remove_alphanumceric_words(self, text):
+        return re.sub("\w*\d\w*", " ", text)
 
-    # Remove punctuation
-    remove_punct = lambda x: self.remove_punctuation(x)
+    def remove_line_breaks(self, text):
+        return " ".join(text.splitlines())
 
-    # Remove apostrophes
-    remove_apostroph = lambda x: self.remove_apostrophes(x)
+    def remove_non_ascii(self, text):
+        return re.sub(r"[^\x00-\x7fre]", r" ", text)
 
-    # Remove inverted slashes
-    remove_inv_slaches = lambda x: self.remove_slaches(x)
+    def remove_blank_spaces(self, text):
+        return " ".join(text.split())
 
-    # Remove alphanumeric words
-    remove_alphanum_words = lambda x: self.remove_alphanumceric_words(x)
+    def crop_repeated_characters(self, text):
+        return re.sub(r"(.)\1+", r"\1\1", text)
 
-    # Remove non ASCII characters
-    remove_non_asci = lambda x: self.remove_non_ascii(x)
+    def remove_punctuation(self, text):
+        return re.sub("[%s]" % re.escape(string.punctuation), " ", text)
 
-    # Normalaize text
-    normalize_text = lambda x: self.normalize(x)
+    def translate(self, text):
+        try:
+            w = TextBlob(text)
+            w = w.translate(from_lang="en", to="es").raw
+        except textblob.exceptions.TranslatorError:
+            text = text
+        except textblob.exceptions.NotTranslated:
+            text = text
+        else:
+            text = w
 
-    # Remove line breaks
-    remove_line_brk = lambda x: self.remove_line_breaks(x)
+        return text
 
-    # Remove blank spaces
-    remove_spaces = lambda x: self.remove_blank_spaces(x)
+    def preprocess_dataframe(
+        self, data, column, tweet, remove_stop_words, lemmatize, emoji_path
+    ):
+        # Emoji to text
+        text_emoji = lambda x: self.emoji_to_text(x, emoji_path)
 
-    # Crop repeating characters
-    crop_repeating_chars = lambda x: self.crop_repeated_characters(x)
+        # Detect links
+        detect_link = lambda x: self.detect_http(x)
 
-    # Remove stopwords
-    remove_stopword = lambda x: self.remove_stopwords(x)
+        # Split hashtags
+        split_hashtag = lambda x: self.split_hashtags(x)
 
-    # traducir texto de emojis
-    translate_emoji = lambda x: self.translate(x)
+        # Remove Tweeter entities
+        remove_tweeter_entities = lambda x: self.tweet_preprocessing(x)
 
-    # Apply functions
-    data[column] = data[column].map(detect_link).map(html_entities).\
-                                map(remove_line_brk)
+        # Change html entities
+        html_entities = lambda x: self.change_html_entities(x)
 
-    if tweet:
-      data[column] = data[column].map(remove_tweeter_entities)
-    
-    data[column] = data[column].map(split_hashtag)
+        # Lower text
+        lower_text = lambda x: self.turn_lowercase(x)
 
-    if emoji_path != None:
-      data[column] = data[column].map(text_emoji)
-      #if self.language == 'spanish':
-      #  data[column] = data[column].map(translate_emoji)
+        # Remove punctuation
+        remove_punct = lambda x: self.remove_punctuation(x)
 
+        # Remove apostrophes
+        remove_apostroph = lambda x: self.remove_apostrophes(x)
 
-    data[column] = data[column].map(lower_text).map(remove_punct).\
-                          map(crop_repeating_chars).map(remove_alphanum_words).\
-                          map(normalize_text)
+        # Remove inverted slashes
+        remove_inv_slaches = lambda x: self.remove_slaches(x)
 
-    if remove_stop_words == True:
-      data[column] = data[column].map(remove_stopword)
-    
-    data[column] = data[column].map(remove_apostroph).map(remove_inv_slaches).\
-                          map(remove_non_asci).map(remove_spaces)
-    
-    return data
-  
-  def preprocess_text(self, texts, tweet, remove_stop_words, emoji_path):
-    clean_texts = []
-    for text in texts:
-      text = self.detect_http(text)
+        # Remove alphanumeric words
+        remove_alphanum_words = lambda x: self.remove_alphanumceric_words(x)
 
-      text = self.change_html_entities(text)
+        # Remove non ASCII characters
+        remove_non_asci = lambda x: self.remove_non_ascii(x)
 
-      text = self.split_hashtags(text)
+        # Normalaize text
+        normalize_text = lambda x: self.normalize(x)
 
-      text = self.remove_line_breaks(text)
+        # Lemmatize text
+        lemmas = lambda x: self.lemmatizer(x)
 
-      if tweet:
-        text = self.tweet_preprocessing(text)
-      
+        # Remove line breaks
+        remove_line_brk = lambda x: self.remove_line_breaks(x)
 
-      if emoji_path != None:
-        text = self.emoji_to_text(text, emoji_path)
+        # Remove blank spaces
+        remove_spaces = lambda x: self.remove_blank_spaces(x)
 
-        #if self.language == 'spanish':
-        #  text = self.translate(text)
+        # Crop repeating characters
+        crop_repeating_chars = lambda x: self.crop_repeated_characters(x)
 
-      text = self.turn_lowercase(text)
-      
-      text = self.remove_punctuation(text)
+        # Remove stopwords
+        remove_stopword = lambda x: self.remove_stopwords(x)
 
-      text = self.crop_repeated_characters(text)
+        # traducir texto de emojis
+        translate_emoji = lambda x: self.translate(x)
 
-      text = self.remove_alphanumceric_words(text)
+        # Apply functions
+        data[column] = (
+            data[column].map(detect_link).map(html_entities).map(remove_line_brk)
+        )
 
-      text = self.normalize(text)
+        if tweet:
+            data[column] = data[column].map(split_hashtag)
+            data[column] = data[column].map(remove_tweeter_entities)
 
-      if remove_stop_words == True:
-        text = self.remove_stopwords(text)
+        if emoji_path != None:
+            data[column] = data[column].map(text_emoji)
 
-      text = self.remove_apostrophes(text)
-      text = self.remove_slaches(text)
-      text = self.remove_non_ascii(text)
-      text = self.remove_blank_spaces(text)
+        data[column] = data[column].map(lower_text)
 
-      clean_texts.append(text)
+        if remove_stop_words == True:
+            data[column] = data[column].map(remove_stopword)
 
-    return clean_texts
+        if lemmatize:
+            data[column] = data[column].map(lemmas).map(normalize_text)
+            if remove_stop_words == True:
+                data[column] = data[column].map(remove_stopword)
 
-  def main_preprocess(self, data, column= None, tweet = False, 
-                      remove_stop_words = False, is_dataframe= False, 
-                      emoji_path = None):
-    data_copy = data.copy()
-    if is_dataframe == True:
-      data = self.preprocess_dataframe(data_copy, column, tweet, 
-                                       remove_stop_words, emoji_path)
-    
-    else:
-      data = self.preprocess_text(data_copy, tweet, 
-                                  remove_stop_words, emoji_path)
-    
-    return data
+        data[column] = (
+            data[column]
+            .map(normalize_text)
+            .map(remove_punct)
+            .map(crop_repeating_chars)
+            .map(remove_alphanum_words)
+            .map(remove_apostroph)
+            .map(remove_inv_slaches)
+            .map(remove_non_asci)
+            .map(remove_spaces)
+        )
+
+        return data
+
+    def preprocess_text(self, texts, tweet, remove_stop_words, lemmatize, emoji_path):
+        clean_texts = []
+
+        for text in texts:
+            text = self.detect_http(text)
+
+            text = self.change_html_entities(text)
+
+            text = self.remove_line_breaks(text)
+
+            if tweet:
+                text = self.split_hashtags(text)
+
+                text = self.tweet_preprocessing(text)
+
+            if emoji_path != None:
+                text = self.emoji_to_text(text, emoji_path)
+
+            text = self.turn_lowercase(text)
+
+            if remove_stop_words == True:
+                text = self.remove_stopwords(text)
+
+            if lemmatize:
+                text = self.lemmatizer(text)
+                text = self.normalize(text)
+                if remove_stop_words:
+                    text = self.remove_stopwords(text)
+
+            text = self.normalize(text)
+
+            text = self.remove_punctuation(text)
+
+            text = self.crop_repeated_characters(text)
+
+            text = self.remove_alphanumceric_words(text)
+
+            text = self.remove_apostrophes(text)
+
+            text = self.remove_slaches(text)
+
+            text = self.remove_non_ascii(text)
+
+            text = self.remove_blank_spaces(text)
+
+            clean_texts.append(text)
+
+        return clean_texts
+
+    def main_preprocess(
+        self,
+        data,
+        column=None,
+        tweet=False,
+        remove_stop_words=False,
+        is_dataframe=False,
+        lemmatize=False,
+        emoji_path=None,
+    ):
+        data_copy = data.copy()
+        if is_dataframe == True:
+            data = self.preprocess_dataframe(
+                data_copy, column, tweet, remove_stop_words, lemmatize, emoji_path
+            )
+
+        else:
+            data = self.preprocess_text(
+                data_copy, tweet, remove_stop_words, lemmatize, emoji_path
+            )
+
+        return data
