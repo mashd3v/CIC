@@ -47,7 +47,7 @@ class Baseline:
         confusion_matrix = metrics.confusion_matrix(y_test, y_pred)
         accuracy = metrics.accuracy_score(y_test, y_pred)
 
-        print(f'Model {self.model_name} ({self.y_label_column}-{self.ngram_range}-{self.min_df}) --> Accuracy: {round(accuracy, 2)}')
+        print(f'Model: {self.model_name}(Ngram: {self.ngram_range}, Min_df:{self.min_df}) --> Accuracy: {round(accuracy, 2)}')
         
         return final_model, vectorizer, [clf_report, confusion_matrix, accuracy]
     
