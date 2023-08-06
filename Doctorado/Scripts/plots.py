@@ -66,11 +66,14 @@ class Plots:
         # Crear una figura y un eje
         fig, ax = plt.subplots(figsize=(10, 8))
 
+        # Ajustar el tamaño de la fuente
+        sns.set(font_scale=1.5)
+
         # Mostrar la matriz de confusión como una imagen
         sns.heatmap(
             cm_perc,
             annot=True,
-            fmt=".2%",
+            fmt=".2",
             cmap="Blues",
             ax=ax,
             xticklabels=labels,
@@ -78,9 +81,13 @@ class Plots:
         )
 
         # Configurar las etiquetas del eje
-        ax.set_xlabel(x_label)
-        ax.set_ylabel(y_label)
-        ax.set_title(title)
+        ax.set_xlabel(x_label, fontsize=18)
+        ax.set_ylabel(y_label, fontsize=18)
+        ax.set_title(title, fontsize=20)
+
+        # Ajustar el tamaño de fuente de las ticklabels (etiquetas de los ejes)
+        ax.set_xticklabels(ax.get_xticklabels(), fontsize=16)  # Ajusta el tamaño de fuente según tu preferencia
+        ax.set_yticklabels(ax.get_yticklabels(), fontsize=16)
 
         # Mostrar la figura
         plt.show()
