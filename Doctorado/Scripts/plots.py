@@ -7,9 +7,8 @@ class Plots:
     def __init__(self, metrics):
         self.metrics = metrics
 
-    def plot_classification_report(
-        self, title, x_label, y_label, x_labels, y_labels, with_avg_total=False
-    ):
+    def plot_classification_report(self, title, x_label, y_label, 
+                                   x_labels, y_labels, with_avg_total=False):
         lines = self.metrics[0].split("\n")
 
         classes = []
