@@ -1,0 +1,63 @@
+# Linguistics
+
+Formally **linguistics** is defined as the scientific study of language, including the form and syntax of language, the meaning and semantics depicted by the usage of language, and the context of use.
+
+**1. Name and describe branches of linguistics.**
+
+- **Phonetics.** The study of the acoustic properties of sounds produced by the human vocal tract during speech. This includes studying the sound properties of how they are created as well as percived by human beings. The smallest individual unit of uman speech is termed a _phoneme_, which ios usually distinctive to a specific language as opposed to a more generic term, called _phone_.
+- **Phonology.** Is the study of sound patterns as interpreted in the human mind and used for sistinguishing between different phonemes. The structure, combination, and interpretations of phonemes are studied in detail, usually by taking into account a specific language at time. The English language consists of around 45 phonemes. Phonology usually extends beyond just studying phonemes and includes things like accents, tone, and syllabe structures.
+- **Syntax.** Is usually the study of sentences, phrases, words, and their structures. This includes researching how words are combinated grammatically to form phrases and sentences. Syntactic order of words used in a phrase or a sentence matter since the order can change the meaning entirely.
+- **Semantics.** Involves the study of meaning in languange and can be further subdivided into lexical and compositionla semantics.
+
+  - **Lexical semantics.** Involves the study of the meaning of words and symbols using morphology and syntax.
+  - **Compositional semantics.** Involvels studying relationships among words and combination of words and understanding the meaning of phrases and sentences and how they are related.
+
+- **Morphology.** By definition, a morpheme is the smallest unit of language that has distinctive meaning. This includes things like words, prefixes, suffixes, and so on, which have their own distinct meaning. Morphology is the study of the structure and meaning of these distinctive units or morphemes in a language. There are specific rules and syntaxes that govern the way morphemes can combine.
+
+- **Lexicon.** This is the study of properties of words and phrases used in a language and how they build the vocabulary of the language. These include what kinds of sounds are associated with meanings for words, as well as the parts of speech that words belong to and their morphological forms.
+
+- **Pragmatics.** This is the study of how linguistic and non-linguistic factors like context and scenario might affect the meaning of an expression of a message or an utterance. This includes trying to infer if there are any hidden or indirect meanings in communication.
+
+- **Discourse analysis.** This analyzes language and exchange of information in the form of sentences across conversations among human beings. These conversations could be spoken, written, or even signed.
+
+- **Stylistics.** This is the study of language with a focus on the style of writing including the tone, accent, dialogue, grammar, and type of voice.
+
+- **Semiotics.** This is the study of signs, symbols, and sign processes and how they communicate meaning. Things like analogies, metaphors, and symbolism are covered in this area.
+
+**2. What are parts of speech?**
+Are classes or sets which show similar syntactic behavior, and often a typical semantic type. These words classes are otherwise called _syntactic_ or _grammatical categories_.
+
+**3. Define and describe the properties of the following parts of speech:**
+
+- **Noun:** usually denotes words that depict some object or entity that could be living or non-living. Some examples are fox, dog, book, and so on. The POS tag symbol for nouns is N.
+- **Verb:** are words that are used to describe certain actions, states, or occurrences. There are a wide variety of further subcategories like auxiliary, reflexive, transitive, and many more. Some typical examples of verbs are running, jumping, read, and write. The POS tag symbol for verbs is V.
+- **Adjective:** are words that describe or qualify other words, typically nouns and noun phrases. The phrase “beautiful flower” has the noun (N) “flower,” which is described or qualified using the adjective (ADJ) “beautiful”. The POS tag symbol for adjectives is ADJ.
+- **Adverb:** usually act as modifiers for other words including nouns, adjectives, verbs, or other adverbs. The phrase “very beautiful flower” has the adverb (ADV) “very,” which modifies the adjective (ADJ) “beautiful” indicating the degree of how beautiful the flower is. The POS tag symbol for adverbs is ADV.
+- **Determinant:** Usually precedes nouns and specifies their definiteness, quantity, or demonstrativeness. For example, "the book," "two apples," "this chair." Common POS tag symbols for determiners are DT (determiner) and DET (determiner).
+- **Preposition:** Shows the relationship between a noun or pronoun and other words in a sentence. Examples include "on the table," "behind the door," "during the day." Common POS tag symbols for prepositions are IN (preposition or subordinating conjunction) and PRP (preposition).
+- **Conjunction:** Joins words, phrases, or clauses. Coordinating conjunctions like "and," "but," "or" link words or phrases of equal grammatical rank. Subordinating conjunctions like "because," "although," "since" introduce dependent clauses. Examples: "I like coffee and tea," "It is raining, so I need an umbrella," "I went home because I was tired." Common POS tag symbols for conjunctions are CC (coordinating conjunction) and IN (preposition or subordinating conjunction)
+- **Interjection:** Expresses an emotion or sudden reaction. They often stand alone but can be followed by an exclamation mark. Examples: "Ouch!", "Wow!", "Hurray!" Interjections usually don't have a POS tag assigned, but sometimes you might see EX (existential there) or UH (interjection).
+
+**4. What is constituency grammar?**
+Is a class of grammar that specifically does not focus on constituents (unlike constituency grammars) like words, phrases, and clauses, but gives more emphasis on words. Hence these grammar types are also known as word-based grammars. Dependencies in this context are labeled word-word relations or links that are usually asymmetrical. A word has a relation or depends on another word based on the positioning of the words in the sentence. Consequently, dependency grammars assume that further constituents of phrases and clauses are derived from this dependency structure between words. The basic principle behind dependency grammar is that in any sentence in the language, all the words except one has some relationship or dependency on other words in the sentence.
+
+Begins from the verb to the rest of the sentence.
+
+**5. What is dependency grammar?**
+These grammar types are built on the principle that a sentence can be represented by several constituents derived from it. These grammar types can be used to model or represent the internal structure of sentences in terms of a hierarchically ordered structure of its constituents. Each word belongs to a specific lexical category and forms the head words of different phrases. These phrases are formed based on rules called phrase structure rules. Hence constituency grammars are also called phrase structure grammars. Phrase structure grammars were introduced by Noam Chomsky in the 1950s. Constituents are words or group of words that have specific meaning and can act together as a dependent or independent unit. They also can be combined to form higher order structures in a sentence. These include phrases and clauses.
+
+Begins from the distinct types of phrases (noun phrases, verb phrases, prepositional phrases) to an specific POS.
+
+**6. Name and describe lexical semantic relations among words.**
+
+- **Lemmas.** Is also known as the canonical or citation form for a set of words. The lemma is usually the base form of a set of words, known as a lexeme. Lemma is the specific base form or head word that represents the lexeme. Word forms are inflected forms of the lemma, which are part of the lexeme and can appear as one of the words from the lexeme in text. A simple example is the lexeme {eating, ate, eats}, which are the word forms and their lemma is the word “eat”.
+- **Homonyms.** Are defined as words that share the same spelling or pronunciation but have different meanings. An alternative definition restricts the constraint to the same spelling. The relationship between these words is termed homonymy. Homonyms are often said to be a superset of homographs and homophones. An example of homonyms can be demonstrated in the following sentences, “The bat hangs upside down from the tree” and “That baseball bat is really sturdy” for the word “bat”.
+- **Homographs.** Are defined as words that have the same written form or spelling but have different meanings. Several alternate definitions say that the pronunciation can also be different. Some examples of homographs include, the word “lead” as in “I am using a lead pencil” and “Please lead the soldiers to the camp” and the word “bass” as in “Turn up the bass for the song” and “I just caught a bass today while I was out fishing”. Note that with the case of the word “lead,” the spelling stays the same but the pronunciation changes based on the context in the sentences.
+- **Homophones.** Are defined as words that have the same pronunciation but have different meanings and can have the same or different spellings. Examples are the words “pair” (which means couple) and “pear” (which means the fruit), which sound the same but have different meanings and written forms. These words cause problems in NLP, since it is very difficult to determine the actual context and meaning using machine intelligence.
+- **Heteronyms.** Are defined as words that have the same written form or spelling but have different pronunciation and meaning. By nature, they are a subset of homographs. They are also often called heterophones, which means, “different sound”. Examples of heteronyms are the words “lead” (metal, command) and “tear” (rip off something, moisture from eyes).
+- **Heterographs.** Are defined as words that have the same pronunciation but different meanings as well as spellings. By nature they are a subset of homonyms. Their written representation might be different but they sound very similar or often exactly the same when spoken. Some examples include the words “to,” “too,” and “two,” which sound similar but have different spellings and meanings.
+- **Polysemes.** Are defined as words that have the same written form or spelling and different but related meanings. While this is very similar to homonymy, the difference is very subjective and depends on the context since these words are related to each other. A very good example is the word “bank,” which can mean (1) a financial institution, (2) the bank of the river, (3) the building that belongs to the financial institution, or (4) even as a verb which means to rely upon. Now all these examples use the same word, “bank” and are homonyms. But only (1), (3), and even (4), which stand for trust and security (which a financial organization represents) are polysemes and represent a common theme.
+- **Capitonyms.** Are defined as words that have the same written form or spelling but have different meanings when they are capitalized. The words may or may not have different pronunciations. Some examples include the words “march” (“March” indicates the month and “march” depicts the action of walking) and “may” (“May” indicates the month and “may” depicts a modal verb).
+- **Synonyms.** Are defined as words that have different pronunciations and spellings but have the same meanings in some or all contexts.
+- **Antonyms.** Are defined as pairs of words that define a binary opposite relationship.
+- **Hyponyms.** Are words that are subclasses of other words. In this case the hyponyms are generally words with a very specific sense and context as compared to the word that is their superclass. Hypernyms are the words that act as the superclass to the hyponyms and have a more generic sense compared to the hyponyms. An example is the word “fruit,” which is the hypernym and the words “mango,” “orange,” and “pear” are possible hyponyms. The relationship depicted between these words is often called hyponymy or hypernymy.
