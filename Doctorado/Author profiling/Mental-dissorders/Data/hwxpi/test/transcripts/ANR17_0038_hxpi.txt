@@ -1,0 +1,5 @@
+Me gusta mucho el basquetbol  y la natacion <FO:natación>. Estuve <MD> dos años sin estudiar debido  a  no poder conseguir un lugar en la universidad <FO:Universidad>  , en ese tiempo  trabaje <FO:trabajé> y me enfoque <FO:enfoqué> en las actividades que me gustaban.
+
+Mi familia no es tan unida , cada quien tien <FO:tiene> por asi <FO:así> decirlo su vida, mis padres son muy estrictos en algunos aspectos pere <FO:pero> a la vez son muy comprensivos.
+
+La educacion <FO:educación> moral y etica <FO:ética> impartida por hambos <FO:ambos> son una de las cosas por las que estoy muy agradecido con ellos siempre he tratado de <DL> ser una buena persona y hacer lo correcto  y eso es un rasgo que <MD> de su buen papel como padres.

@@ -1,0 +1,11 @@
+Soy un chico que trabaja y estudia, me gusta leer, bailar, escribir y los videojuegos.
+
+He estado intentando superarme para tener otra perspectiva sobre la vida.
+
+La biologia <FO:biología> molecular me ha llamado la atención recientemente , sobre todo la rama de la genetica <FO:genética>, es un tema bastante interesante, debido a las nuevas tecnologias <FO:tecnologías> que han surgido, en torno a esta rama.
+
+Me gustaria <FO:gustaría> dar algun <FO:algún> aporte importante a estas nuevas tecnologias <FO:tecnologías>, ser parte del progreso, en ciencia, investigación celular, e inclusive medicina.
+
+Detalles relevantes de mi vida, podria <FO:podría> ser el evento de estudiar, al fin, la universidad, para mi <FO:mí> es un punto y aparte en mi ciclo de vida,
+
+Mi plan de vida a corto plazo, es una vez tener la licenciatura, continuar con un posgrado mientras trabajo en algún proyecto de investigación.

@@ -1,0 +1,3 @@
+Hay en mi vida Muchos hechos inportantes <FO:importantes> , pero ahora recuerdo cuando entre <FO:entré> al bachillerato , toda mi familia estaba muy emocionada igual que ahora que entre <FO:entré> a la Universidad.
+	El deporte siempre me he gustado y he practicado el fútbol soccer desde niño ; ahí he tenido grandes satisfacciones , pero también grandes frustaciones <FO:frustraciones> ; ahí aprendi <FO:aprendí> a ser mejor persona en la victoria , pero aún mejor en la derrota.
+	Soy algo discutidor , me gusta mucho la filosofia <FO:filosofía> y mi filosofo <FO:filósofo> favorito es Platón.

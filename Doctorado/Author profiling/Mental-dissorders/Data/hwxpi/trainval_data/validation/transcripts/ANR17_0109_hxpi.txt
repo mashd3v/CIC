@@ -1,0 +1,7 @@
+Mi nombre es vania <FO:Vania> nací en la ciudad <MD> de México ; el día 15 de abril del año 1999.
+
+Soy la hija segunda , tengo 3 hermanos: 1 mayor y 2 menores.
+
+Me consideró <FO:considero> una chica <MD> con buen nivel ácademico <FO:académico> mantuve siempre un promedio de 9   y pretendo seguir teniendolo <FO:teniéndolo>..
+
+así mismo he crecido mucho en el ámbito social, conosco <FO:conozco> gente de muchos lados, es muy chistoso porque segun <FO:según> ellos nunca guardo silencio. 

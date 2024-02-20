@@ -1,0 +1,5 @@
+ Me gustan  muchas cosas , el futbol <FO:fútbol> , la musica <FO:música> , el cine , cocinar . Soy una persona mas <FO:más> de estar con mi familia con la que disfruto hacer muchas de estas actividades
+	
+No soy de muchos amigos pero los que tengo son muy importantes  para mi <FO:mí>.
+
+Tengo mascotas y me gusta mucho convivir Con animales

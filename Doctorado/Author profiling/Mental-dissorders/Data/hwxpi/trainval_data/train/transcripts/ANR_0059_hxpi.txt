@@ -1,0 +1,4 @@
+En primer grado de secundaria participe <FO:participé> en un concurso académico de matemáticas, en ese entonces no me gustaban y me costaba mucho aprenderlas, estudié muy poco para el concurso por lo mismo que no me llamaba el atención las matemáticas.
+El día del concurso estaba muy nerviosa y a la hora del examen no sabía nada y me sentía muy mal. Conteste <FO:Contesté> muy poco y al final cuando dieron los resultados y como esperaba no obtuve ningun <FO:ningún> primer lugar.
+Paso <Fo:Pasó> un año y en tercero grado <MD> de nuevo me metí al concurso pero ahora si <FO:sí> estudie <FO:estudié> y mucho.
+En el concurso conteste <FO:contesté> todo y fue algo facíl <FO:fácil> . Cuando dieron los resultados obtuve el 2º lugar del concurso.

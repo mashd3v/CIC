@@ -1,0 +1,5 @@
+<D:viñeta flecha> A  mi me gusta salir con mi familia  por ejemplo a parques y a dias <FO:días> de campo.
+
+<D:viñeta flecha> Me gusta ver anime y escuchar música.
+
+<D:viñeta flecha> Con mi familia en dias <FO:días> festivos nos gusta hacer <MD> bailes además hacer comidas. 

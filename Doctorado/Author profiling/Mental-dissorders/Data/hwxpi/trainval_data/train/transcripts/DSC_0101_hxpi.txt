@@ -1,0 +1,3 @@
+Mi familía <FO:familia> está compuesta por mi papá , mi mamá y mi hermano menor. Con ellos he estado viviendo en distintos lugares, como el Estado de México , Veracruz y actualmente en el D.F.
+
+La mayor parte de mis recuerdos son de mis estudios desde secundaria , donde pude conocer a mi mejor amigo , con quien hasta el momento mantengo <MD> contacto , con el <FO:él> estube <FO:estuve> platicando y organizando una que otra salida. En preparatoria conocí a más personas y mantengo aún contacto con algunos, en este tiempo pude disfurutar <FO:disfrutar> de más salidas <MD> , como una vez que fuimos a un parque de diversiones y nos subimos a la montaña ruza <FO:rusa> por primera vez

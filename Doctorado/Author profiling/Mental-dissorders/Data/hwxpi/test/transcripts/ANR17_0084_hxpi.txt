@@ -1,0 +1,3 @@
+Mi nombre es Ana Joselín LASTNAME LASTNAME , tengo 18 años , vengo del municipio de San José del Rincón del Estado de México, y nací en una comunidad llamada la <FO:La> mesa <FO:Mesa> de la misma entidad.
+Tengo cinco hermanos y una hermana , yo ocupo el sexto lugar entre ellos, la mayoría de ellos ya son casados, y en mi familia sólo mi hermano menor y yo estamos estudiando.
+Terminé mi bachillerato en el CECYTEM <MD> plantel San Jose <FO:José> del Rincón, donde me decidí a estudiar Administracion <FO:Administración> 

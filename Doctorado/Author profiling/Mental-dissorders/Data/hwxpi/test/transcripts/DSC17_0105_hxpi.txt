@@ -1,0 +1,7 @@
+
+ Tengo   20 años,  estudie <FO:estudié> en la preparatoria #8  de  la UNAM ,  pero termine <FO:terminé> la prepa <FO:preparatoria> con un  examen  de COLBACH <MD> , trabajo desde los 16 años,  comence <FO:comencé>  en Cinemex y actualmente trabajo  en una  empresa Intech  llamada Broxel.
+ Tengo <MD> un  hermano mayor  y dos medios hermanos menores,  vivo  con  mi  madre y su actual esposo.
+ 
+ Me  considero  una  persona  paciente, ordenada y en algunos  casos  metodica <FO:metódica> .
+ 
+ Me gusta  el  Fútbol,  jugue <FO:jugué>  2 años mientras estuve  en  la preparatoria. 

@@ -1,0 +1,9 @@
+	So <FO:soy> el menor de dos hijos . Mis padres son Arquitectos egresados de IPN. Tengo 20 años.
+	
+Siempre me ha <NS> gustado  destacar en todo lo que hago , trato  de mejorar como persona y hacer mejorar a los  que me rodean.
+	
+Mis padres han sido  los mejores  guías en mi camino , surcandomelo <FO:surcándomelo> cuando les era posible y dejandome <FO:dejándome> caer cuando lo necesitaba para aprender.
+
+El contar con un hermano mayor también me ha resultado de mucha ayuda para crecer <MD>.
+
+Me encanta programar y todo lo relacionado con la tecnológía <FO:tecnología>.

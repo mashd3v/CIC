@@ -1,0 +1,5 @@
+Tengo  4 hermanos  3 hombres  1 Mujer
+Vivo  Con  mis  padres   y  un hermano menor me gusta  el  diseño  y demas <FO:demás>  cosas relacionadas con crear  o planificar
+Me gusta  viajar  aunque  normalmente  no <NS> lo hago <MD> por economia <FO:economía>
+disfruto  de  momentos  de  soledad y de compañia <FO:compañía>  por igual
+No tengo muchos  eventos reelevantes <FO:relevantes> en mi vida <MD>.

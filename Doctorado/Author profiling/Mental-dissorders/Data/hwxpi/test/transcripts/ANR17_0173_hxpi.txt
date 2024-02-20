@@ -1,0 +1,4 @@
+  Pues una persona muy soñadora nacida en méxico <FO:México> Df <FO:DF> o ciudad de México mi família <FO:familia> se ha dedicado al comercio desde mis habuelos <FO:abuelos> a <FO:ha> pasado por generaciones.
+Mi plan desde <MD> pequeño había sido trabajar en lo mismo pero debido al caracter <FO:carácter> formado a <NS> travez <FO:través> de los años me di cuenta que tenia <FO:tenía> que tener una carrera universitaria.
+Mis hermanos al igual que yo no quisieron seguir la tradición y terminar <SB> la carrera me influenciaron en gran parte pues me enseñaron a soñar  y a seguir por lo que uno desea.
+Termine <FO:Terminé> no hace mucho tiempo el bachillerato precisamente en el conalep <FO:CONALEP> que esta <FO:está> a un lado y por suerte o no tanta termine <FO:terminé> estudiando aquí tengo muchos planes y <NS> el siguiente es terminar la carrera . 

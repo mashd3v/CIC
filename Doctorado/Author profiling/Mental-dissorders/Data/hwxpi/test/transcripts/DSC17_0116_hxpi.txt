@@ -1,0 +1,3 @@
+Me llamó <FO:llamo> Agnés Mara LASTNAME LASTNAME , tengo 19 años  y con la carrera de Humanidades esperó <FO:espero> ser profesora. Me gustaria <FO:gustaría> abrirle más puertas a niños en situación de calle ,consideró <FO:considero> que una buena educación puede cambiar todo tu futuro.
+Me interesan muchos los derechos humanos ya sea en México o <FO:u> otros paises <FO:países> . Igualmente me interesan mucho los derechos ani males y la idea de seguir una vida vegana . No solo por los animales pero por el bienestar del medio ambiente y toda la vida en el planeta.
+Creo que lo que más me ha marcado es mi vida fue recibir la educación que tuve .

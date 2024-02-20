@@ -1,0 +1,7 @@
+ vivo con mi familia malerna <FO:materna> , tengo 2 hermanos, trabajo en  un cine desde hace 3 años, de ahí apoyo al sustento economico <FO:económico> en parse <FO:parte> .
+ 
+ En la escuela  siempre parricipava <FO:participaba> , hasta la secundaria . Tomé clases para tocar el bajo, instrumento <SB> que aún toco.
+ 
+Hace dos años conoci <FO:conocí> a la que es mi pareja, una chica estadounidense <NS> que conocí en una visita a un bar en  el centro.  Y con la cual nos lleva mos <FO:llevamos> muy bien. Ella esta <FO:está> fuera  por intercambio , ella esta <FO:está> en suiza  pero diario nos hablamos.
+ 
+ Curso la carrera de sistemas  porque me gusta programar y armar <MD>  usna <FO:una> maqira <FO:máquina> .  

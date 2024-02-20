@@ -1,0 +1,8 @@
+Eventos que considero relevantes en mi vida:
+1= Ganar una competicida <FO:competencia> de niño en natación, esto me hizo tener mucha confianza en mi <FO:mí>
+2.- Aprender a andar en bici , no es nada fuera de lo normal pero en partícularmente a mi <FO:mí> me costo <FO:costó> mucho trabajo. esto me hizo saber que intentando una y <NS> otra vez puedo llegar a mis objetivos
+3.- Entrar al Medio Superio <FO:Superior> , esto es debido a que tuve muchos problemas a lo hora de terminar la secundaria ,veía muy difícil continuar estudiando <MD>, y el echo <FO:hecho> de entrar a la Media Superior me fue muy reconfortante y satisfactorio
+4.- La muerte de mi mamá; éste <FO:este> echo <FO:hecho> me afecto <FO:afectó> mucho y me forjo <FO:forjó> carácter de echo <FO:hecho> me hizo superarme.
+5.- Aprender primeros auxilios , curacionas <FO:curaciones> y a canalizar : Debido a un curso que tome <FO:tomé> enfocado en la disciplina de enfermeria <FO:enfermería>, he aprendido a poder hacer una pequeña diferencia en algunos casos y eso me hace sentir <MD> bien.
+
+6.- Seguir <MD> estudiando en el nivel superior me da mucha alegria <FO:alegría> , continuar estudiando y aplicar todo lo aprendido  en los anteriores puntos

@@ -1,0 +1,1 @@
+Pues escogí esta carrera por que <FO:porque> en Preparatoria <FO:preparatoria> lleve <FO:llevé> una carrera técnica en programación y fue mucho de mi agrado y por lo tanto esa <MD> fue la razón por la cual escogí esta carrera <MD> y a comparación de Ing. en Computacion <FO:Computación> escogi <FO:escogí> esta <FO: ésta> por el tipo de materias que lleva a lo largo de la carrera. 

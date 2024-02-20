@@ -1,0 +1,5 @@
+Me considero una persona que siempre tuvo el interes <FO:interés> por aprender cosas nuevas. Desde  pequeña mis padres  me inculcaron el habito <FO:hábito> de la lectura y esto me ayuda para satisfacer  mi necesidad por el  conocimiento.
+Las actividades culturales siempre  han sido una prioridad en la <NS> familia por lo que me gustan bastante.
+Mi familia tiene una  mente abierta y gracias a esto yo tambien <FO:también>
+Aprecio el apoyo que me han dado para seguir con mis estudios. Este mismo me na <FO:ha> permitido  llegar a donde  estoy  hoy.
+Sin ellos  no  estaria <FO:estaría> hoy aqui <FO:aquí>.

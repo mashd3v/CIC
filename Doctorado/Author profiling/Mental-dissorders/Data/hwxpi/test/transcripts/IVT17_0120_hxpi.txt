@@ -1,0 +1,3 @@
+Mi nombre es Andrea tengo 19 años.
+vivo con mis hermanos y padres.
+He conosido <FO:conocido> gente durante  estos largos años que considero realmente mis amigos. No soy muy buena hablando con los demas <FO:demás> de mis cosas pero considero que si <FO:sí> soy buena escuchando. Me senti <FO:sentí> muy feliz  cuando  recibi <FO:recibí> mi titulo <FO:título> y mi cedula <FO:cédula>.

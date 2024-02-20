@@ -1,0 +1,3 @@
+ En  mí  caso, considero fundamental  ciertas diciplinas <FO:disciplinas> para el desarrollo Humano, como  Son: Artes, filosofía, Historia, linguistica <FO:lingüística> , literatura.
+ Las Artes  por que  no  puedo  imaginar una sociedad, cultura, etc <FO:etc.> , si ellas ya que son la primordial manifestación de alma  del  ser humano. la filosofia <FO:filosofía>  por que sin ella estamos como: un barco sin  navio <FO:navío> .
+ La historia para saber  el pasado  y proyectarlo en el presente para posperar <FO:prosperar> al futuro.  

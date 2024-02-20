@@ -1,0 +1,5 @@
+Soy Daniela LASTNAME LASTNAME; mis padres se separaron hace 8 años, <DL> tengo 3 hermanos, yo soy la segunda, los dos hombres y yo vivimos con mi papá y la más chica vive con mi mamá. No convivo mucho con todos ya que no siempre se da el momento, hace 5 meses que me embaraze <FO:embaracé> y ahora estudio.
+Aunque  si <FO:sí> extraño mucho a mis hermanos.
+Tengo muchos própositos <FO:propósitos> y metas que cumplire <FO:cumpliré> en este lapso.
+
+Cuento con el apoyo de toda mi familia por salir adelante, cuando me entere <FO:enteré> que estaba embarazada creí que muchas puertas se me habían cerrado y no podria <FO:podría> seguir estudiando pero no fue así. Ahora creo más que nunca que <DL> hace más el que quiere que el que puede. 

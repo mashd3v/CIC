@@ -1,0 +1,2 @@
+Me gusta el jazz, realmente me gusta toda la música. Me considero  un melómano, no puedo escuchar alguna cancion <FO:canción> o gene <FO:género> musical por demasiado tiempo <MD> . Estoy en una constante busqueda <FO:búsqueda> de nueva musica <FO:música>
+

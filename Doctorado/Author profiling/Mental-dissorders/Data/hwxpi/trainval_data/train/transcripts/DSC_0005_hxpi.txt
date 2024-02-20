@@ -1,0 +1,3 @@
+El dia <FO:día> en que inicie <FO:inicié> la preparatoria,en esa etapa de mi vida emperazon  a surgir muchos de los intereses que ahora tengo, conocí a muchas  personas que forman parte de mi vida actualmente, fué <FO:fue> un espacio en el que cada acción tomaba llevaba a un camino en el que probablemente podría tener consecuencias, las cuales ayudaron a darme una razón de porque lo hacia <FO:hacía> .
+
+Mi familia siempre me ha apoyado en cada desición <FO:decisión> que elija, aunque ellos no esten <FO:estén> de acuerdo puedo contar con ellos, de alguna u otra forma siempre encuentran la forma para que pueda salir a delante y este <FO:esté> satisfecho con lo que haga.

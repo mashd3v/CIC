@@ -1,0 +1,3 @@
+ Mi familia esta <FO:está> conformada por 5 personas, mi papá Edmundo, mi mamá Esthela, mi hermano Erick Emmanuel, mi hermana Ruth Valeria  y yo Claudia Elizabeth.
+
+ Actualmente  tanto mi hermano como yo entramos a la universida <FO:universidad>  y mi hermana  a la secundaria.

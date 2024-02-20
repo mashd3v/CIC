@@ -1,0 +1,7 @@
+
+Tengo 20 años, de una familia un poco inusual <MD> con problemas familiares , como todas las demas <FO:demás>.
+Empece <FO:Empecé> estudiando Ingeniería Industrial en UPIICSA, sin embargo no era el area <FO:área> que me gustaba y así termine <FO:terminé> estudiando aquí matematicas <FO:matemáticas> aplicadas.
+
+Me gusta conocer nuevas personas, y así diferentes formas de pensamiente <FO:pensamiento>  conociendo sus historias y poder identificarnos con ellas. El tener nuevas experiencias es muy gratificante y observamos la gran diversidad de las personas.
+
+Me gustan <MD> los lugares tranquilos y silenciosos, ademas <FO:además> de los grupos de personas pocas, no me gusta el ruido ni las personas escandalosas, en especial cuando su único fin es llamar la atención.

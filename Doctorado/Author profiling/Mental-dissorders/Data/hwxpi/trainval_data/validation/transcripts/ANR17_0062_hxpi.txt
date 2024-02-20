@@ -1,0 +1,4 @@
+Mis papás se divorciaron cuando tenia <FO:tenía> 5 y eso me afecto <FO:afectó> ya que solo <FO:sólo> vivo con mi mamá  y ella es la que sustenta todo, no tiene ningun <FO:ningún> apoyo.
+Me gradue <FO:gradué> de el <FO:del> bachillerato como Tec. en Mecatronica <FO:Mecatrónica>.
+Me gusta el futbol <FO:fútbol> soccer y el Americano.
+Estudie <FO:Estudié> por mas <FO:más> de 3 año ingles <FO:inglés> en una escuela <MD>  de lengua extranjera 

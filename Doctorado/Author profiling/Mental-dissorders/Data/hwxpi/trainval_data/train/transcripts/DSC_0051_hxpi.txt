@@ -1,0 +1,3 @@
+Tengo una Familia de 5 integrantes, mis dos padres , dos hermanos y mi abuela materna que vive con nosotros . Debido a la profesion <FO:profesión> de mis hermanos (veterinarios) tenemos muchos animales en casa: 4 perros, 6 (o más) pajaros <FO:pájaros> de distintos tipos, un erizo y un pato que tiene su propio corral en la azotea.
+
+Mi familia convive en un ambiente tranquilo y se entiendes muy facíl <FO:fácil> , dificilmente existen pelaecs <FO:peleas> entre nosotros <MD> .

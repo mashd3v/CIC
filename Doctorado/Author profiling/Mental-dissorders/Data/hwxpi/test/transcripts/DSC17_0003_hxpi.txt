@@ -1,0 +1,6 @@
+
+Mi padre  trabaja en  el ejercito <FO:ejército> y me gustaria <FO:gustaría>
+
+seguir sus pasos pero mas <FO:más> preparado
+ 
+tanto física y mentalmente .

@@ -1,0 +1,4 @@
+Bueno, vengo de una familia que recide <FO:reside> en Cuernavaca, de clase media, con una mamá que le hace de madre y padre al mismo tiempo, ya que mi papá nos abandonó cuando <MD> tenía una corta edad.
+Mi mamá nos cuida a mí y mi hermana la cual es mayor, y hace poco tiempo se agregó un integrante más, mi perro mini doberman. Vivo muy bien, gracias a los esfuerzos de mi mamá nada me falta y a mi hermana tampoco le faltó nunca nada <MD>. Siempre cursé en escuela pública, trato de darle un gran esfuerzo al estudio para no solo satisfacer y agradecer a <NS> mi mamá sino tambien <FO:también> para satisfacerme <MD> a mí.
+
+Por último me gradué de la preparatoria y entré a esta universidad, dandome <FO:dándome> una gran satisfacción pero al momento de llegar a la ciudad también entro <FO:entró> un poco de angustia y miedo por llegar a un nuevo lugar. Espero eso pronto pase y poder disfrutar mi estancia.

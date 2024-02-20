@@ -1,0 +1,4 @@
+
+ Me  llamó <FO:llamo> Antonio   tengo 29 años es mi segunda carrera  la  primera  fue  Administración, vivo con  un  hermano y mis padres, hasta hace  poco trabajaba en el hospital ABC de santa <FO:Santa> fe <FO:Fe> por eso fue que   ubique <FO:ubiqué>  la escuela por eso  me  inscribi <FO:inscribí> por lo cercamo <FO:cercano> con el trabajo  pero no  importa  yo terminare <FO:terminaré> hasta  obtener  el titulo <FO:título> .
+ 
+ Mi anterior  vida  acadenica <FO:académica> estudie <FO:estudié> dentro de la  UNAM  por  eso  creo  que la UAM es un buen  complemento para la carrera  de humanidades.

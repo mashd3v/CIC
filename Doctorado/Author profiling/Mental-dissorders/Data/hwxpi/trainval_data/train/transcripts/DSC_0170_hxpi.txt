@@ -1,0 +1,4 @@
+Me llamo Fernanda, tengo 18 años. El evento que considero relevante y que marco <FO:marcó> mi vida fue cuando me quedé en la Universidad.
+ A primera estancia , la UAM era solo una segunda opcion <FO:opción> , como un plan B que no ponia <FO:ponía> demasiada atención y para ser sincera, no me preocupaba si me iba a quedar o no, de hecho, estaba segura de que no me iba a quedar.
+  Cuando me entere <FO:enteré> que no me quedé en mi primera opcion <FO:opción> , de verdad pensé que no iba a poder hacer nada hasta el siguiente <NS> año, pero cuando llegaron los resultados de la UAM y vi que me habia <FO:había> quedado no lo podia <FO:podía> creer.
+Mi primer día aqui <FO:aquí> fue alucinante y me pude dar cuenta que me gustaba <NS> mucho estar aqui <FO:aquí> . Las segundas opciones suelen ser las mejores decisiones.

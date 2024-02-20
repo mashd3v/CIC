@@ -1,0 +1,5 @@
+Nací en  San francisco <FO:Francisco> Ayotuxco , Municipio de Huixquilucan , Estado de Mexico <FO:México> . Actualmente vivo en la comunidad de Santa Cruz Ayotuxco, Huixquilucan con mis padres  y 4 hermanos.
+ Mis estudios  se han llevado a cabo en escuelas públicas. He tenido buen promedio durante mi desarrollo academico <FO:académico> .
+  Mi vida ha sido más enfocada a un ambiente rural por lo que casi no viajo a otros lugares para divertirme. Prefiero estar un dia <FO:día> con mi familia al aire libre , a estar  en la ciudad.
+  Actualmente estudio en la UAM Unidad Cuajimalpa en la carrera de Tecnologías y Sistemas de Información y espero terminar mi carrera satisfactoriamente. 
+  

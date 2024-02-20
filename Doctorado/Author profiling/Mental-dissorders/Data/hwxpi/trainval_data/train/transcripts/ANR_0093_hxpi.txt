@@ -1,0 +1,5 @@
+ Soy una persona , a la que le <MD> gusta aprender nuevas cosas , reir <FO:reír>, divertirme , pasar tiempo con amigos y <DL> hacer música.
+
+ Mis padres se separaron después del fallecimiento de mi abuela , justo cuando tenía 10 años. Fue  una parte de mi vida un tanto dificil <FO:difícil> , pero  realmente creo que fue lo <NS> mejor. Actualmente no tengo contacto con mi padre, pero no es necesario ya que nunca estube <FO:estuve> acostumbrado  a pasar tiempo con <NS> el <FO:él>
+
+ Me <MD> gusta mucho escribir música por que es una forma en la cual me relajo mucho y plasmo mis ideales <DL> en la mayoria <FO:mayoría> de ellas.

@@ -1,0 +1,3 @@
+Me llamo Roberto , tengo 22 años y actualmente estoy estudiando la carrera de ciencias de la comunicación:
+Me gusta la musica <FO:música> electronica <FO:electrónica> y asistir a eventos donde haya dicha musica <FO:música> , aunque no siempre me es posible por motivos economicos <FO:económicos> o po r <FO:por> falta de tiempo.
+Espero concluir esta carrera en el tiempo establecido , para no perder mas <FO:más> tiempo y poder empezar a laborar en el campo que <DL> considere mas <FO:más> adecuado para mis pensamientos y metas.

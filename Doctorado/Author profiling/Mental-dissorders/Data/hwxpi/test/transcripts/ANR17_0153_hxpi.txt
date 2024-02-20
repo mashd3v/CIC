@@ -1,0 +1,4 @@
+
+	Considero que tuve una infancia feliz, pero con dificultades. Mi padre tuvo desde que recuerdo problemas con su caracter <FO:carácter> y el alcohol , <NS> lo que ocasiono <FO:ocasionó> constantes discusiones y problemas, y despues <FO:después> el divorcio de mis padres.
+	Aun <FO:Aún> asi <FO:así> considero que tuve una infancia feliz y que hizo de mi <FO:mí> una persona zolida <FO:sólida> y con fuertes convicciones.
+	Continuamente me dicen que cuando algo se me mete en la cabeza es imposible hacerme cambiar de opinion <FO:opinión> , por lo que me considero muy decidido. 

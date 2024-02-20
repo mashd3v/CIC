@@ -1,0 +1,7 @@
+  Hola me llamo Héctor  actualmente
+ trabajo en el ABC de observatorio  como
+  tecnico <FO:técnico> en patologia <FO:patología> Quirurgica, tengo en
+ mente cambiar de carrera  a  ing .en sistema·
+o computacionales, vivo con mis padres pero 
+rentare <FO:rentaré>  un tiempo. asi <FO:así> es mi vida con·
+muy poco tiempo por eso el estres <FO:estrés> y prisa. 

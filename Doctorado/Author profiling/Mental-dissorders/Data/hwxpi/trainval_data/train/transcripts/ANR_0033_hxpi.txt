@@ -1,0 +1,5 @@
+Soy la integrante número 4 de mi familia, tengo 3 hermanos, uno más grande que yo , tiene 20 años , otro más pequeño , y el <FO:él> tiene 15 años <MD> y la más pequeña tiene 11 años.
+Para mi <FO:mí> es muy importante la familia y me gusta convivir mucho con ellos , salir a conocer nuevos lugares y pasarla bien.
+La Navidad pasada fuimos a Cancún , esa fue una experiencia unica <FO:única>, ya que me la pase <FO:pasé> muy bien y convivimos mucho.
+
+Me gusta apoyar a los integrantes de mi familia en todo momento y son muy especiales para mi <FO:mí>.

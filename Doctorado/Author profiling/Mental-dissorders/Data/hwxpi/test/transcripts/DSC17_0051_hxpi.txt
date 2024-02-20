@@ -1,0 +1,8 @@
+
+Pues me llamo Leonardo LASTNAME vivo en el Edo. Mex tengo 18 años , vivo con Mi mama <FO:mamá> y mi padratilo <FO:padrastro> y mis dos hermanos
+
+Me gusta estudiar me gusta aprender cosas nuevas y utiles <FO:útiles> en  la vida me gusta ser alegre y me considero muy trabajador responsable y honesto no
+
+Bueno estudie <FO:estudié> en un cetis y sali <FO:salí> de ahi <FO:ahí> como tecnico <FO:técnico> en telecomunicaciones y me siento muy feliz de haber logrado esa meta que me propuse en acabar mi etapa en el cetis
+
+Ya quiero que empieze <FO:empiece> mi estancia en la universidad se que seran <FO:serán> 4 años Emocionantes y los afrontare <FO:afrontaré> firme y con la mejor cara posible

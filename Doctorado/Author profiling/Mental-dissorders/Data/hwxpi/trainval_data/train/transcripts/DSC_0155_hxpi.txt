@@ -1,0 +1,6 @@
+Tengo  1 hermano y 1 hermana, ambos mayores, Mi padre tiene un taller de hojalateria <FO:hojalatería> y pintura, y  mi madre es contador, me gustan  bastante <SB> los perro; jugar videojuegos <MD> , ver anime y series de T.V.
+He sufrido varios <MD> accidentes por jugar.
+Hasta 2º año de secundaría <FO:secundaria> era una persona realmente nerviosa y obsesiva, hasta que me enferme <FO:enfermé> de colitis nerviosa, la cual me dejo <FO:dejó> en casa durante  3 meses, por lo cual decidi <FO:decidí> "relajarme".
+A la edad de 6 años fallecio <FO:falleció> mi abuela por parte de mi padre, pero como casi no la veía realmente no me afecto <FO:afectó> mucho.
+
+

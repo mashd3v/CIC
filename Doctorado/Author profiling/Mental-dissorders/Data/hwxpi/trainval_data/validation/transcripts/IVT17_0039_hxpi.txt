@@ -1,0 +1,4 @@
+Mi madre se caso <FO:casó> a los 24 y mi padre a los 30, nací al <MD> día siguiente del cumpleaños 25 de mi madre.
+Tengo muchos primos, la mayoría más grandes <NS> que yo.
+Vivo en Ixtlahuaca, Edo. México.
+Cuando sali <FO:salí> de 1º de primaria nos mudamos a Morelia, y cuando iba a entrar a sexto regresamos. En ese año me empece <FO:empecé> a enfermar y falte <FO:falté> a clases bastantes veces Hasta ahora sigo enferma y sin un diagnostico <FO:diagnóstico> exacto. Me he roto el brazo 2 veces, y tambien <FO:también> operado 2 veces lo que me han diagnosticado mas <FO:más> exacto es epilepsia, trastorno bipolar, migraña vestibular y sindrome <FO:síndrome> de Menier pero dicen que de la epilepsia (que es en el lobulo <FO:lóbulo> temporal izquierdo) se deriva del trastorno bipolar y la migraña...

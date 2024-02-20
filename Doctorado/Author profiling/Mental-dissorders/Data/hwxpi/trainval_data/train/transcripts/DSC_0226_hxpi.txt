@@ -1,0 +1,2 @@
+Soy Mauricio LASTNAME LASTNAME tengo 21 años,
+me gusta nadar andar en bicicleta, acabo <MD> de entran <FO:entrar> a la carrera de ingenieria <FO:ingeniería> en  compotación <FO:computación> en la UAM cuajimalpa. Me gustaria <FO:gustaría> acabar mi carrerc <FO:carrera> y <MD> estudiar una maestria <FO:maestría> para mi superacion <FO:superación> personal y laboral. ·A 

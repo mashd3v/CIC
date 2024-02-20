@@ -1,0 +1,5 @@
+Creci <FO:Crecí> en una familia grande, tengo 6 hermanos, y solo vivo con mi mamá, desde que entre <FO:entré> a la primaria fui muy aplicada, y me interese <FO:interesé> por la oratoria, a pesar de tener problemas <MD> para pronunciar la "e", durante la primaria participe <FO:participé> en eventos, donde decia <FO:decía> una poesia <FO:poesía> o algun <FO:algún> discurso
+En la secundaria deje <FO:dejé> por un tiempo la oratoria, y fue hasta el bachillerato cuando volvi <FO:volví> a participar.
+Cuando decidi <FO:decidí> entrar a la universidad, tuve que salir de mi ciudad, soy originaria de Oaxaca, fue un cambio muy grande para mi, pero a pesar de las dificultades para adaptarme al cambio, creo que vale mucho la pena, y que todo esfuerzo tiene su recompensa, ademas <FO:además> , creo que el ser independiente, es una experiencia maravillosa.
+Me gusta la ciudad donde naci <FO:nací> , creo que su cultura y tradiciones, son hermosas, y sobre todo la gastronomia <FO:gastronomía> , me gusta escuchar musica <FO:música> , prefiero la comida salada, no me gustan las cosas dulces.
+Y disfruto mucho pasear y salir de viaje con mi familia.

@@ -1,0 +1,6 @@
+Soy <MD> una persona bastante familiar , el ultimo <FO:último> 
+fin de semana  que estube <FO:estuve> en casa 
+ sacamos el asador al jardin <FO:jardín> y 
+ comimos  ahi <FO:ahí> , me v ine a estudiar a la 
+   CDMX  y extraño  mucho  a <MD> mi 
+	familia dado que somos <MD> muy unidos.

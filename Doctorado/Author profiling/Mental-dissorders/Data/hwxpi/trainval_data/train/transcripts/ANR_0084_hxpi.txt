@@ -1,0 +1,3 @@
+Todos los sucesos en mi vida tienen cierta reelevancia  <FO:relevancia> e impacto en mi vida , resumir ó <FO:o> contar los más importantes implica dar  una imagen <FO:imágen> de mi ser incierta (Este escrito puede ser interpretado de una manera erronea <FO:errónea>). Teniendolo <FO:Teniéndolo> en consideración puedo decir que:
+Desde la infancia hay cierta atracción por la música , no es hasta que consegui <FO:conseguí> mi primer instrumento donde comprendi <FO:comprendí> y utilize <FO:utilicé> el autoaprendizaje <MD>.
+sigo en contacto con las personas <MD> que me rodearon (o por lo menos las más importantes) desde hace 10 años. Mi titulo <FO:título> como técnico cambio <FO:cambió> mi manera de percibir la vida, mi <NS> vida.

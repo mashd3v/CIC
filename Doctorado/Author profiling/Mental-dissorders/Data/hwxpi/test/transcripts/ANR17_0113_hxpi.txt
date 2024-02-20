@@ -1,0 +1,3 @@
+Considero relevante cuando mis padres se divorciaron <MD> y mi madre me pregunto <FO:preguntó> sobre que <FO:qué> desicion <FO:decisión> tomar, yo le dije que si ya no estaba bien con <NS> el <FO:él> que no se preocupara y tomara la decision <FO:decisión> que mas <FO:más> quisiera o la hiciera sentir bien con ella misma
+
+Cuando salí de la prepa <FO:preparatoria> <DL> <DL> puso fin a una epoca <FO:época> en la que no me sentia <FO:sentía> tan seguro <MD> y emocionalmente estable. 

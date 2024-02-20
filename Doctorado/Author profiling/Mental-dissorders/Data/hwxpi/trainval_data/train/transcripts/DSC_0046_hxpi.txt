@@ -1,0 +1,1 @@
+Soy alguien que ya estaba estuduand <FO:estudiando> la universidad en otra institucion <FO:institución> pero <MD> de bido <FO:debido> a un <NS> problema medico <FO:médico> tuve que salir, y <NS> gracias <NS> a <NS> que entre <FO:entré> a la UAM puedo seguir estudiando

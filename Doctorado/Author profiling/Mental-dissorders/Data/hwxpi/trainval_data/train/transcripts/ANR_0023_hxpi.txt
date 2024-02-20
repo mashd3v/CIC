@@ -1,0 +1,3 @@
+
+A mis 15 años a mi madre le detectarón <FO:detectaron> cancer <FO:cáncer> de mama , fue una experiencia algo fuerte para mi hermana y para mi <FO:mí> .
+Después de terminar el tratamiento mi madre salió bien, <DL> sólo perdio <FO:perdió> un pecho . 

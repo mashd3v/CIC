@@ -1,0 +1,4 @@
+Mi nombre es Rodrigo ,  vivo con mis padres y hermana.
+Actualmente trabajo en una granja didactica <FO:didáctica> me gusta mucho, al igual que la carrera en la que estoy, me gusta  mucho la biologia <FO:biología> , quimica <FO:química> , fisica <FO:física> , matematica <FO:matemáticas> , al igual que mi hermana que tambien <FO:también> acaba de  ingresar a la universida <FO:universidad> a  estudia <FO:estudiar> Biotecnologia <FO:Biotecnología> .
+Estudie <FO:Estudié> en  prepa <FO:preparatoria> 8,  aunque  no me gustaba mucho el  estudio , hasta hace  2 años mas <FO:más>, o menos , que  decidi <Fo:decidí> terminar la prepa <FO:preparatoria> , me  di  cuenta que  el aprendisaje <FO:aprendizaje> es genial, divertido, entretenido,  y  sirve de mucho para la vida.
+Espero terminar  mi  carrera y  continuar con mis metas en  la vida.  

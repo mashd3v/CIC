@@ -1,0 +1,3 @@
+ Soy  Ariadna la  segunda hija de  mis padres en  total somos  4 hijas .
+ Un evento  relevante en mi vida se centra en   2  cosas   la  primera  es  deportiva  ya que  en 5º grado  de primaria gané  un <MD> distrita' <FO:distrital>  en la   disiplina <FO:disciplina> de basquetbool <FO:basquetbol>   representando en ese entences <FO:entonces> Distrito <MD>  Federal <MD> .
+Otro evento    importante <MD>  lo catalogaria <FO:catalogaría> cultural  y  literario  pues  participe <FO:participé> en un certamen   de <DL> Oratoria y quedé   en   penúltimo  lugar .
