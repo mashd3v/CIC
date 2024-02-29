@@ -1,0 +1,118 @@
+version: 2
+title: Homo-Mex-24
+description: Classification of tweets and song into different classes based on different tasks
+image: homomex.jpg
+registration_auto_approve: True # do not require approval from admin to join the comp
+
+terms: pages/general_description.md
+pages:
+  - title: General description
+    file: pages/general_description.md
+  - title: Description of the tasks
+    file: pages/description_of_the_tasks.md
+  - title: Data
+    file: pages/data.md
+  - title: How to participate?
+    file: pages/submission_format.md
+  - title: Evaluation
+    file: pages/evaluation.md
+  - title: Important dates
+    file: pages/important_dates.md
+  - title: Organizers
+    file: pages/organizers.md
+
+tasks:
+  - index: 0
+    name: Track 1, training
+    description: "Tune models with the training data."
+    input_data: training_phase/input_data/1/
+    reference_data: training_phase/reference_data/1/
+    ingestion_program: ingestion_program/
+    scoring_program: scoring_program/
+  - index: 1
+    name: Track 1, testing
+    description: "Test your models with unseen data."
+    input_data: testing_phase/input_data/1/
+    reference_data: testing_phase/reference_data/1/
+    ingestion_program: ingestion_program/
+    scoring_program: scoring_program/
+  - index: 2
+    name: Track 2, training
+    description: "Tune models with the training data."
+    input_data: training_phase/input_data/2/
+    reference_data: training_phase/reference_data/2/
+    ingestion_program: ingestion_program/2/
+    scoring_program: scoring_program/
+  - index: 3
+    name: Track 2, testing
+    description: "Test your models with unseen data."
+    input_data: testing_phase/input_data/2/
+    reference_data: testing_phase/reference_data/2/
+    ingestion_program: ingestion_program/
+    scoring_program: scoring_program/
+  - index: 4
+    name: Track 3, early bird
+    description: "You can see an erly preview of the data we are working on."
+    input_data: early_phase/input_data/3/
+    reference_data: early_phase/reference_data/3/
+    ingestion_program: ingestion_program/
+    scoring_program: scoring_program/
+  - index: 5
+    name: Track 3, training
+    description: "Test your models with unseen data."
+    input_data: training_phase/input_data/3/
+    reference_data: training_phase/reference_data/3/
+    ingestion_program: ingestion_program/
+    scoring_program: scoring_program/
+  - index: 6
+    name: Track 3, testing
+    description: "Test your models with unseen data."
+    input_data: testing_phase/input_data/3/
+    reference_data: testing_phase/reference_data/3/
+    ingestion_program: ingestion_program/
+    scoring_program: scoring_program/
+
+solutions:
+  - index: 0
+    tasks:
+      - 0
+      - 1
+    path: solution/
+
+phases:
+  - name: Early bird phase
+    description: "Early bird phase: you can see an erly preview of the data we are working on."
+    start: 4-1-2024
+    end: 4-20-2024
+    tasks:
+      - 4
+  - name: Training phase
+    description: "Training phase: tune your models."
+    start: 3-1-2024
+    end: 4-20-2024
+    tasks:
+      - 0
+      - 2
+      - 5
+  - name: Testing phase
+    description: "Final phase: test your models against unseen data."
+    max_submissions: 100
+    start: 1-8-2024
+    end: 4-20-2024
+    tasks:
+      - 1
+      - 3
+      - 6
+
+leaderboards:
+  - title: Results
+    key: main
+    columns:
+      - title: Prediction score
+        key: accuracy
+        index: 0
+        sorting: desc
+      - title: Duration
+        key: duration
+        index: 1
+        sorting: desc
