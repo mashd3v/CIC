@@ -286,6 +286,7 @@ class Preprocessing:
     return data
   
   def preprocess_text(self, texts, tweet,
+                      remove_linebreaks, lowercase,
                       remove_stop_words, 
                       tweet_tags, lemmatize,
                       translate_emojis, 
@@ -299,9 +300,11 @@ class Preprocessing:
 
       text = self.change_html_entities(text)
 
-      text = self.remove_line_breaks(text)
+      if remove_linebreaks:
+        text = self.remove_line_breaks(text)
 
-      text = self.turn_lowercase(text)
+      if lowercase:
+        text = self.turn_lowercase(text)
 
       if tweet:
         if tweet_tags:
@@ -344,6 +347,8 @@ class Preprocessing:
 
   def main_preprocess(self, data, column= None,
                       tweet = False,
+                      remove_linebreaks = True, 
+                      lowercase = True,
                       tweet_tags = False,
                       remove_stop_words = False,
                       lemmatize = False,
@@ -375,6 +380,8 @@ class Preprocessing:
 
       data = self.preprocess_text(data_copy, 
                                   tweet, 
+                                  remove_linebreaks, 
+                                  lowercase,
                                   remove_stop_words,
                                   tweet_tags,
                                   lemmatize,
