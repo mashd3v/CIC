@@ -1,0 +1,16 @@
+user_id,gender,orientation,age,academic_level,academic_field,group
+2,Masculino,Heterosexual,23,Licenciatura,Inteligencia artificial,A
+3,hombre queer,heterosexual,28,Doctorado,Cómputo,A
+5,Masculino,Heterosexual,24,Grado,Ingeniería Matemática ,A
+6,Hombre,Homosexual,25,Posgrado,Ingeniería de Cómputo,C
+7,hombre,heterosexual,23,licenciatura en curso,computacion,C
+8,Mujer,Bisexual,26,Grado,Matematicas y psicologia,C
+12,Masculino,heterosexualidad,30,Licenciatura,Area 1,B
+14,Masculino,Heterosexual,22,Licenciatura,Tecnologias,B
+15,Femenino,Pansexual,26,Licenciatura,Lingüística ,B
+16,Mujer cisgénero,Heterosexual,25,Licenciatura,Lingüística,C
+17,Femenino ,Lesbiana ,35,Licenciatura,Ciencias sociales ,A
+18,Agénero,Demisexual,29,Grado,Enseñanza de Inglés,B
+19,Femenino,Bisexual,32,Doctorado,Genómica,A
+20,Hombre,Homosexual ,42,Licenciatura,Administrativo ,C
+21,Mujer,Bisexual ,26,Licenciatura ,Lingüística ,B
